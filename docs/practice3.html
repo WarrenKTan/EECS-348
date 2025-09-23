@@ -1,0 +1,37 @@
+<style>
+    #title{
+        font-size: 36pt;
+        color: rgb(0,0,0);
+    }
+</style>
+
+<html>
+    <div id="title">
+        Practice3
+    </div>
+
+    <label for="original">Type your password:</label><br><br>
+    <input type="text" id="original" value=""><br><br> 
+
+    <br><br> 
+
+    <label for="retype">Verify your password:</label><br><br> 
+    <input type="text" id="retype" value=""><br><br>
+
+    <button onclick="userInputAlert()">Submit</button>
+</html>
+
+<script>
+    function userInputAlert() {
+        var original = document.getElementById("original").value;
+        var retype = document.getElementById("retype").value;
+
+        if (original.length < 8){
+            alert("Your password must be at least 8 characters long.");
+        }else if (original.localeCompare(retype)){    
+            alert("Passwords do not match.");
+        }else{
+            alert("Passwords matched and verified.");
+        }
+    }
+</script>
