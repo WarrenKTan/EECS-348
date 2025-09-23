@@ -1,0 +1,65 @@
+<style>
+    #title{
+        font-size: 36pt;
+        color: rgb(0,0,0);
+    }
+    
+    header{
+        font-size: 18pt;
+        color: rgb(0, 0, 0);
+    }
+
+    #body {
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+    }
+</style>
+
+<html>
+    <div id="title">
+        Practice2
+    </div>
+
+    <div id="body">
+        Lorem ipsum dolor sit amet. Rem pariatur autem quo consequatur dolorem ut magnam accusantium et eligendi inventore ut autem nobis ut tenetur voluptas ut excepturi dolorum. Qui quisquam vitae sit distinctio aliquam ea deleniti dolor est labore sint est assumenda nulla ea quam reprehenderit. </p><p>Vel architecto similique id omnis aliquid et dolor cupiditate rem nemo molestiae At sint quia qui nostrum quaerat! Eum minus enim qui doloribus facere et placeat modi et harum quae qui omnis architecto qui unde nisi? </p><p>Est porro consequatur est necessitatibus enim aut omnis galisum nam cumque voluptatem ad soluta officiis in beatae voluptatem. Et sint delectus et corrupti tempora est dolorem aperiam eum doloremque odio qui magnam ipsa! Et rerum corrupti id similique repellat sit quibusdam unde At iure reprehenderit qui omnis cumque.
+    </div>
+
+    <label for="red">Text Red:</label>
+    <input type="text" id="txtRed"value="0"><br><br> 
+    <label for="green">Text Green:</label>
+    <input type="text" id="txtGreen"value="0"><br><br>
+    <label for="blue">Text Blue:</label>
+    <input type="text" id="txtBlue"value="0"><br><br>
+
+    <label for="width">Border Width:</label>
+    <input type="text" id="borderWidth" value="5"><br><br>
+
+    <label for="red">Border Red:</label>
+    <input type="text" id="borderRed"value="0"><br><br> 
+    <label for="green">Border Green:</label>
+    <input type="text" id="borderGreen"value="0"><br><br>
+    <label for="blue">Border Blue:</label>
+    <input type="text" id="borderBlue"value="0"><br><br>
+
+    <button onclick="userInputAlert()">Submit</button>
+</html>
+
+<script>
+    function userInputAlert() {
+        var borderRed = document.getElementById("borderRed").value;
+        var borderGreen = document.getElementById("borderGreen").value;
+        var borderBlue = document.getElementById("borderBlue").value;
+
+        var borderWidth = document.getElementById("borderWidth").value;
+
+        var txtRed = document.getElementById("txtRed").value;
+        var txtGreen = document.getElementById("txtGreen").value;
+        var txtBlue = document.getElementById("txtBlue").value;
+
+        var tag = document.getElementById("body");
+        tag.style.borderColor = `rgb(${borderRed},${borderGreen},${borderBlue})`;
+        tag.style.borderWidth = borderWidth;
+        tag.style.color = `rgb(${txtRed},${txtGreen},${txtBlue})`;
+    }
+</script>

@@ -11,7 +11,7 @@ TARGET = Lab02.exe
 all: run
 
 # Rule to build the executable
-$(TARGET): $(PROGRAM) 
+$(TARGET): $(PROGRAM) $(ODD) $(EVEN)
 # 	@echo
 # 	@echo Compiling...
 	@g++ -std=c++11 $(PROGRAM) $(ODD) $(EVEN) -o $(TARGET)
