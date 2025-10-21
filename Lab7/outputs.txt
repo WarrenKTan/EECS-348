@@ -1,0 +1,138 @@
+Question 1:
+boxing
+Question 2:
+wizards
+quickly
+Question 3:
+6
+Question 4:
+EMAIL Peer,Can you help me on this?,12-01-2024
+EMAIL OtherPerson,Try our product,12-19-2024
+EMAIL Boss,Important,12-20-2024
+EMAIL Subordinate,How do I handle this?,12-25-2024
+EMAIL ImportantPerson,Health Insurance Enrollment,12-31-2024
+EMAIL ImportantPerson,Re: Health Insurance Enrollment,01-01-2025
+EMAIL Boss,Never Mind,01-03-2025
+EMAIL Peer,Re: Can you help me on this?,01-04-2025
+EMAIL Boss,Re: Important,01-04-2025
+EMAIL Boss,Re: Never Mind,01-04-2025
+EMAIL Subordinate,Re: How do I handle this?,01-05-2025
+EMAIL OtherPerson,Re: Try our product,01-19-2025
+EMAIL BOSS,Try the other plan,01-20-2025
+Question 5:
+COUNT
+NEXT
+READ
+NEXT
+READ
+COUNT
+NEXT
+READ
+NEXT
+READ
+COUNT
+NEXT
+READ
+NEXT
+READ
+COUNT
+NEXT
+READ
+NEXT
+READ
+COUNT
+NEXT
+READ
+NEXT
+READ
+NEXT
+NEXT
+READ
+READ
+COUNT
+NEXT
+READ
+Question 6:
+EMAIL Boss,Important,12-20-2024
+EMAIL Boss,Never Mind,01-03-2025
+EMAIL Boss,Re: Important,01-04-2025
+EMAIL Boss,Re: Never Mind,01-04-2025
+Question 7:
+EMAIL ImportantPerson,Re: Health Insurance Enrollment,01-01-2025
+EMAIL Boss,Never Mind,01-03-2025
+EMAIL Peer,Re: Can you help me on this?,01-04-2025
+EMAIL Boss,Re: Important,01-04-2025
+EMAIL Boss,Re: Never Mind,01-04-2025
+EMAIL Subordinate,Re: How do I handle this?,01-05-2025
+EMAIL OtherPerson,Re: Try our product,01-19-2025
+EMAIL BOSS,Try the other plan,01-20-2025
+Question 8:
+EMAIL Peer,Can you help me on this?,12-01-2024
+EMAIL OtherPerson,Try our product,12-19-2024
+EMAIL Boss,Important,12-20-2024
+EMAIL Subordinate,How do I handle this?,12-25-2024
+EMAIL ImportantPerson,Health Insurance Enrollment,12-31-2024
+Question 9:
+EMAIL Boss,Important,12-20-2024
+Question 10:
+EMAIL Boss,Re: Important,01-04-2025
+EMAIL Boss,Re: Never Mind,01-04-2025
+Question 11:
+EMAIL OtherPerson,Try our product,12-19-2024
+EMAIL ImportantPerson,Health Insurance Enrollment,12-31-2024
+EMAIL ImportantPerson,Re: Health Insurance Enrollment,01-01-2025
+EMAIL OtherPerson,Re: Try our product,01-19-2025
+Question 12:
+13
+Question 13:
+count
+next
+read
+next
+read
+count
+next
+read
+next
+read
+count
+next
+read
+next
+read
+count
+next
+read
+next
+read
+count
+next
+read
+next
+read
+next
+next
+read
+read
+count
+next
+read
+Question 14:
+EMAIL Others,Try our product,12-19-2024
+EMAIL Others,Health Insurance Enrollment,12-31-2024
+EMAIL Others,Re: Health Insurance Enrollment,01-01-2025
+EMAIL Others,Re: Try our product,01-19-2025
+Question 15:
+Can you help me on this?
+Try our product
+Important
+How do I handle this?
+Health Insurance Enrollment
+Re: Health Insurance Enrollment
+Never Mind
+Re: Can you help me on this?
+Re: Important
+Re: Never Mind
+Re: How do I handle this?
+Re: Try our product
+Try the other plan
