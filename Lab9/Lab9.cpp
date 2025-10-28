@@ -1,8 +1,8 @@
 /*
 Program Name: EECS 348 Lab 9
-Description: 
-Inputs: 
-Outputs: 
+Description: Functions with matrices in C++
+Inputs: a single .txt file which contains both square matrices and their sizes
+Outputs: various functions to add, multiply, swap, and modify the matrices in C++.
 Collaborators: 
 Other Sources: stackOverflow, ChatGPT, geeksforgeeks
 Author: Warren Tan
@@ -13,8 +13,8 @@ Creation Date: 28/10/2025
 #include <fstream>
 #include <vector>
 #include <string>
-#include <sstream>
-#include <iomanip>
+#include <sstream> // stringstream
+#include <iomanip> // setw and setfill
 
 using namespace std;
 
