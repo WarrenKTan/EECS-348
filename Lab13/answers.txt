@@ -1,0 +1,22 @@
+**This is the same text as the comments in Lab13.cpp**
+
+1. Is there a fault in the program? If so, locate it and explain
+There is a fault in the indexing of the 'for' loop.
+for (int i = 1; i < attendance_records.size(); ++i)
+Indexing starts at '1', resulting in an unread value at index '0'.
+
+2. Define a test case that does not execute the fault:
+It is imposible to avoid execution of the fault since the fault
+occurs inside a loop that always executes given any valid input.
+
+3. Define a test case that executes the fault but does not result in an error state:
+expected output: True
+actual output: True
+
+4. Define a test case that results in an error state but not a failure.
+expected output: False
+actual output: False
+
+5. Define a test case that results in failure.
+expected output: True
+actual output: False

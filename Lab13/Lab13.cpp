@@ -16,6 +16,21 @@ Creation Date: 25/11/2025
 using namespace std;
 
 // check if 'attendance_records' has 3+ missed attendances
+bool fail_lecture_erroneous(const vector<int>& attendance_records){
+    // count of the amount of zeroes in 'attendance_records'
+    int absent_count = 0;
+    
+    // check every* index in 'attendance_records'
+    for (int i = 1; i < attendance_records.size(); ++i){
+        // increment 'absent_count' upon reading an absence ('0')
+        absent_count += attendance_records[i] == 0;
+    }
+
+    // return true 
+    return absent_count >= 3;
+}
+
+// check if 'attendance_records' has 3+ missed attendances
 bool fail_lecture(const vector<int>& attendance_records){
     // count of the amount of zeroes in 'attendance_records'
     int absent_count = 0;
@@ -47,19 +62,25 @@ int main(){
     // expected output: True
     // actual output: True
     records = {1, 0, 1, 1, 0, 1, 1, 1, 0, 1};
-    cout << fail_lecture(records) << endl;
+    cout << "Question 3:" << endl;
+    cout << "expected output: " << fail_lecture(records) << endl;
+    cout << "actual output: " << fail_lecture_erroneous(records) << endl;
 
     // 4. Define a test case that results in an error state but not a failure.
     // expected output: False
     // actual output: False
     records = {0, 1, 1, 1, 1, 1, 0, 1, 1, 1};
-    cout << fail_lecture(records) << endl;
+    cout << "Question 4:" << endl;
+    cout << "expected output: " << fail_lecture(records) << endl;
+    cout << "actual output: " << fail_lecture_erroneous(records) << endl;
 
     // 5. Define a test case that results in failure.
     // expected output: True
     // actual output: False
     records = {0, 1, 1, 1, 1, 1, 0, 1, 0, 1};
-    cout << fail_lecture(records);
+    cout << "Question 5:" << endl;
+    cout << "expected output: " << fail_lecture(records) << endl;
+    cout << "actual output: " << fail_lecture_erroneous(records) << endl;
 
     return 0;
 }
