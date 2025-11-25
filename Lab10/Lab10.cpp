@@ -303,7 +303,7 @@ string addDoubles(const string & s1, const string & s2){
 
 // reads file and produces outputs based on file contents
 void processFile(const string & inputFile){
-// attempt to open the file in parameter 'fin'
+    // attempt to open the file in parameter 'fin'
     // ifstream from ChatGPT
     ifstream fin(inputFile);
     if (!fin) {
